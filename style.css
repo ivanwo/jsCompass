@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: darkgray;
+}
+#compass {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 25%; */
+  margin: 5% 40% -5%;
+  width: 50px;
+  height: 50px;
+  padding: 25px 25px;
+  font-size: 4em;
+  font-family: sans-serif;
+  border-radius: 100%;
+  /* border: 2px solid goldenrod; */
+}
+#coord {
+  width: 100%;
+  text-align: center;
+  font-size: 5em;
+  /* border: 2px solid black; */
+}
