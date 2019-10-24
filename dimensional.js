@@ -65,23 +65,23 @@ function turnLeft() {
 function printer() {
   switch (dir) {
     case 0:
-      console.log(`^`);
+      //   console.log(`^`);
       document.getElementById("compass").innerHTML = "^";
       break;
     case 1:
-      console.log(`>`);
+      //   console.log(`>`);
       document.getElementById("compass").innerHTML = ">";
       break;
     case 2:
-      console.log(`v`);
+      //   console.log(`v`);
       document.getElementById("compass").innerHTML = "v";
       break;
     default:
-      console.log(`<`);
+      //   console.log(`<`);
       document.getElementById("compass").innerHTML = "<";
       break;
   }
-  console.log(`${ns} N ${ew} E`);
+  //   console.log(`${ns} N ${ew} E`);
   document.getElementById("coord").innerHTML = `${ns} N ${ew} E`;
 }
 
